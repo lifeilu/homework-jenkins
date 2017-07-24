@@ -6,7 +6,7 @@ public class Main {
 	// write your code here
         System.out.println("Hello World!");
         Max myTest = new Max();
-        int maxNum = myTest.getMax(1, 2);
+        int maxNum = myTest.getMax(3, 2);
         System.out.println(maxNum);
     }
 }
