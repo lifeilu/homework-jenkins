@@ -8,5 +8,8 @@ public class Main {
         Max myTest = new Max();
         int maxNum = myTest.getMax(3, 2);
         System.out.println(maxNum);
+        myTest.writeFile(maxNum);
     }
+
+
 }
